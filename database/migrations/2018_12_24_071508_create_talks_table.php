@@ -41,7 +41,7 @@ class CreateTalksTable extends Migration
 
             $table->timestamps(); // created_at, updated_at
 
-            $table->primary('id');
+            # $table->primary('id');
             $table->index('publisher_id');
             $table->index('created_at');
         });
